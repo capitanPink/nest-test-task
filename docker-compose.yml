@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: example
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: staffing_tool
+    volumes:
+    - ./data/db:/data/db~
+    ports:
+    - "5425:5432"
