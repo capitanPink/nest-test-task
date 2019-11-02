@@ -1,6 +1,6 @@
 ## Description
 
-[Nest] Test task
+Test application - authorization with bearer
 
 ## Installation
 
@@ -10,12 +10,14 @@ $ npm install
 
 ## Running the app
 ### Running the database with docker-compose
+
 ```bash
 # runs the database instance on localhost:5425
 $ docker-compose up -d postgres
 ```
 
 ### Running the application
+
 ```bash
 # development
 $ npm run start
